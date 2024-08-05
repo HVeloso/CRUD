@@ -4,7 +4,7 @@ namespace ApiCrud.Tasks
 {
     public class TaskBody
     {
-        public Guid Id { get; init; }
+        public int Id { get; init; }
         public string Name { get; private set; }
         public string Description { get; private set; }
         public bool IsCompleted { get; set; }
@@ -13,8 +13,6 @@ namespace ApiCrud.Tasks
         {
             Name = name;
             Description = description;
-
-            Id = Guid.NewGuid();
             IsCompleted = false;
         }
 

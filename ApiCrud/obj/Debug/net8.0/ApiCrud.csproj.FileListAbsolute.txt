@@ -135,3 +135,4 @@ C:\Users\Higaro\Desktop\Área de trabalho\PROJETO CRUD\ApiCrud\bin\Debug\net8.0\
 C:\Users\Higaro\Desktop\Área de trabalho\PROJETO CRUD\ApiCrud\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Higaro\Desktop\Área de trabalho\PROJETO CRUD\ApiCrud\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Higaro\Desktop\Área de trabalho\PROJETO CRUD\ApiCrud\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Higaro\Desktop\Área de trabalho\PROJETO CRUD\ApiCrud\obj\Debug\net8.0\ApiCrud.sourcelink.json

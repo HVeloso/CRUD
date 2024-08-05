@@ -72,12 +72,12 @@ namespace ApiCrud.Tasks
 
             #region Update Task
 
-            taskEndpoints.MapPut("Update-{id:Guid}", 
-                async (Guid id, UpdateTaskRequest request, AppDbContext context, CancellationToken ct) =>
+            taskEndpoints.MapPut("Update-{id:int}", 
+                async (int id, UpdateTaskRequest request, AppDbContext context, CancellationToken ct) =>
             {
                 // Verifica se o Id existe na lista
                 var task = await context.ToDoList.SingleOrDefaultAsync(task => task.Id == id, ct);
-                if (task == null) return Results.NotFound();
+                if (task == null) return Results.NotFound("Task not founded");
 
                 // Verifica se as mudanças são válidas
                 if (request.Name.IsNullOrEmpty())
@@ -98,8 +98,8 @@ namespace ApiCrud.Tasks
 
             #region Delete Task
 
-            taskEndpoints.MapDelete("Delete-{id:Guid}", 
-                async (Guid id, AppDbContext context, CancellationToken ct) =>
+            taskEndpoints.MapDelete("Delete-{id:int}", 
+                async (int id, AppDbContext context, CancellationToken ct) =>
             {
                 // Verifica se o Id existe na lista
                 var task = await context.ToDoList.SingleOrDefaultAsync(task => task.Id == id, ct);
