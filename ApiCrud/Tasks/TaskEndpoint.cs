@@ -1,4 +1,5 @@
 ﻿using ApiCrud.Data;
+using Azure.Core;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 
@@ -72,11 +73,11 @@ namespace ApiCrud.Tasks
 
             #region Update Task
 
-            taskEndpoints.MapPut("Update-{id:int}", 
-                async (int id, UpdateTaskRequest request, AppDbContext context, CancellationToken ct) =>
+            taskEndpoints.MapPut("Update-Task", 
+                async (UpdateTaskRequest request, AppDbContext context, CancellationToken ct) =>
             {
                 // Verifica se o Id existe na lista
-                var task = await context.ToDoList.SingleOrDefaultAsync(task => task.Id == id, ct);
+                var task = await context.ToDoList.SingleOrDefaultAsync(task => task.Id == request.Id, ct);
                 if (task == null) return Results.NotFound("Task not founded");
 
                 // Verifica se as mudanças são válidas
@@ -98,7 +99,7 @@ namespace ApiCrud.Tasks
 
             #region Delete Task
 
-            taskEndpoints.MapDelete("Delete-{id:int}", 
+            taskEndpoints.MapDelete("Delete-Task/{id:int}", 
                 async (int id, AppDbContext context, CancellationToken ct) =>
             {
                 // Verifica se o Id existe na lista

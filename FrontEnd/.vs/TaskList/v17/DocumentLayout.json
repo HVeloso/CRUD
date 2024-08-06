@@ -9,16 +9,19 @@
       "AbsoluteMoniker": "D:0:0:{033FEB4A-B99A-4C03-AA32-C5AB252DD46F}|http://localhost:51601|c:\\users\\higaro\\documents\\my web sites\\paginahtml\\css\\homepage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{033FEB4A-B99A-4C03-AA32-C5AB252DD46F}|http://localhost:51601|c:\\users\\higaro\\documents\\my web sites\\paginahtml\\js\\apiconnection.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{033FEB4A-B99A-4C03-AA32-C5AB252DD46F}|http://localhost:51601|c:\\users\\higaro\\documents\\my web sites\\paginahtml\\js\\delete.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{033FEB4A-B99A-4C03-AA32-C5AB252DD46F}|http://localhost:51601|c:\\users\\higaro\\documents\\my web sites\\paginahtml\\js\\buttonsbehaviour.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{033FEB4A-B99A-4C03-AA32-C5AB252DD46F}|http://localhost:51601|c:\\users\\higaro\\documents\\my web sites\\paginahtml\\js\\create.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{033FEB4A-B99A-4C03-AA32-C5AB252DD46F}|http://localhost:51601|c:\\users\\higaro\\documents\\my web sites\\paginahtml\\js\\taskcardscontroller.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{033FEB4A-B99A-4C03-AA32-C5AB252DD46F}|http://localhost:51601|c:\\users\\higaro\\documents\\my web sites\\paginahtml\\js\\addtaskbuttonbehaviour.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{033FEB4A-B99A-4C03-AA32-C5AB252DD46F}|http://localhost:51601|c:\\users\\higaro\\documents\\my web sites\\paginahtml\\js\\checkboxchanged.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{033FEB4A-B99A-4C03-AA32-C5AB252DD46F}|http://localhost:51601|c:\\users\\higaro\\documents\\my web sites\\paginahtml\\js\\changedboxbehaviour.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{033FEB4A-B99A-4C03-AA32-C5AB252DD46F}|http://localhost:51601|c:\\users\\higaro\\documents\\my web sites\\paginahtml\\js\\update.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,59 +30,72 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "DockedWidth": 262,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CheckBoxChanged.js",
-              "DocumentMoniker": "C:\\Users\\Higaro\\Documents\\My Web Sites\\PaginaHTML\\JS\\CheckBoxChanged.js",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\Documents\\My Web Sites\\PaginaHTML\\JS\\CheckBoxChanged.js",
-              "ToolTip": "C:\\Users\\Higaro\\Documents\\My Web Sites\\PaginaHTML\\JS\\CheckBoxChanged.js",
-              "RelativeToolTip": "..\\..\\..\\..\\Documents\\My Web Sites\\PaginaHTML\\JS\\CheckBoxChanged.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAlAAAA",
+              "DocumentIndex": 3,
+              "Title": "Create.js",
+              "DocumentMoniker": "C:\\Users\\Higaro\\Documents\\My Web Sites\\PaginaHTML\\JS\\Create.js",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Documents\\My Web Sites\\PaginaHTML\\JS\\Create.js",
+              "ToolTip": "C:\\Users\\Higaro\\Documents\\My Web Sites\\PaginaHTML\\JS\\Create.js",
+              "RelativeToolTip": "..\\..\\..\\..\\Documents\\My Web Sites\\PaginaHTML\\JS\\Create.js",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABcAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-08-05T06:49:57.758Z",
+              "WhenOpened": "2024-08-06T06:32:02.984Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "TaskCardsController.js",
-              "DocumentMoniker": "C:\\Users\\Higaro\\Documents\\My Web Sites\\PaginaHTML\\JS\\TaskCardsController.js",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\Documents\\My Web Sites\\PaginaHTML\\JS\\TaskCardsController.js",
-              "ToolTip": "C:\\Users\\Higaro\\Documents\\My Web Sites\\PaginaHTML\\JS\\TaskCardsController.js",
-              "RelativeToolTip": "..\\..\\..\\..\\Documents\\My Web Sites\\PaginaHTML\\JS\\TaskCardsController.js",
-              "ViewState": "AQIAACkAAAAAAAAAAAAiwEYAAAAYAAAA",
+              "Title": "AddTaskButtonBehaviour.js",
+              "DocumentMoniker": "C:\\Users\\Higaro\\Documents\\My Web Sites\\PaginaHTML\\JS\\AddTaskButtonBehaviour.js",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Documents\\My Web Sites\\PaginaHTML\\JS\\AddTaskButtonBehaviour.js",
+              "ToolTip": "C:\\Users\\Higaro\\Documents\\My Web Sites\\PaginaHTML\\JS\\AddTaskButtonBehaviour.js",
+              "RelativeToolTip": "..\\..\\..\\..\\Documents\\My Web Sites\\PaginaHTML\\JS\\AddTaskButtonBehaviour.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-08-05T06:18:19.095Z",
+              "WhenOpened": "2024-08-06T06:31:58.109Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ApiConnection.js",
-              "DocumentMoniker": "C:\\Users\\Higaro\\Documents\\My Web Sites\\PaginaHTML\\JS\\ApiConnection.js",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\Documents\\My Web Sites\\PaginaHTML\\JS\\ApiConnection.js",
-              "ToolTip": "C:\\Users\\Higaro\\Documents\\My Web Sites\\PaginaHTML\\JS\\ApiConnection.js",
-              "RelativeToolTip": "..\\..\\..\\..\\Documents\\My Web Sites\\PaginaHTML\\JS\\ApiConnection.js",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAlwDAAAABCAAAA",
+              "Title": "Delete.js",
+              "DocumentMoniker": "C:\\Users\\Higaro\\Documents\\My Web Sites\\PaginaHTML\\JS\\Delete.js",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Documents\\My Web Sites\\PaginaHTML\\JS\\Delete.js",
+              "ToolTip": "C:\\Users\\Higaro\\Documents\\My Web Sites\\PaginaHTML\\JS\\Delete.js",
+              "RelativeToolTip": "..\\..\\..\\..\\Documents\\My Web Sites\\PaginaHTML\\JS\\Delete.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAEAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-08-05T06:18:18.299Z",
+              "WhenOpened": "2024-08-06T06:29:11.111Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ButtonsBehaviour.js",
-              "DocumentMoniker": "C:\\Users\\Higaro\\Documents\\My Web Sites\\PaginaHTML\\JS\\ButtonsBehaviour.js",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\Documents\\My Web Sites\\PaginaHTML\\JS\\ButtonsBehaviour.js",
-              "ToolTip": "C:\\Users\\Higaro\\Documents\\My Web Sites\\PaginaHTML\\JS\\ButtonsBehaviour.js",
-              "RelativeToolTip": "..\\..\\..\\..\\Documents\\My Web Sites\\PaginaHTML\\JS\\ButtonsBehaviour.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAhAAAA",
+              "DocumentIndex": 6,
+              "Title": "Update.js",
+              "DocumentMoniker": "C:\\Users\\Higaro\\Documents\\My Web Sites\\PaginaHTML\\JS\\Update.js",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Documents\\My Web Sites\\PaginaHTML\\JS\\Update.js",
+              "ToolTip": "C:\\Users\\Higaro\\Documents\\My Web Sites\\PaginaHTML\\JS\\Update.js",
+              "RelativeToolTip": "..\\..\\..\\..\\Documents\\My Web Sites\\PaginaHTML\\JS\\Update.js",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAQwCUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-08-05T06:18:17.55Z",
+              "WhenOpened": "2024-08-06T06:24:01.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ChangedBoxBehaviour.js",
+              "DocumentMoniker": "C:\\Users\\Higaro\\Documents\\My Web Sites\\PaginaHTML\\JS\\ChangedBoxBehaviour.js",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Documents\\My Web Sites\\PaginaHTML\\JS\\ChangedBoxBehaviour.js",
+              "ToolTip": "C:\\Users\\Higaro\\Documents\\My Web Sites\\PaginaHTML\\JS\\ChangedBoxBehaviour.js",
+              "RelativeToolTip": "..\\..\\..\\..\\Documents\\My Web Sites\\PaginaHTML\\JS\\ChangedBoxBehaviour.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-08-06T06:23:29.509Z",
               "EditorCaption": ""
             },
             {
@@ -90,9 +106,9 @@
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Documents\\My Web Sites\\PaginaHTML\\CSS\\HomePage.css",
               "ToolTip": "C:\\Users\\Higaro\\Documents\\My Web Sites\\PaginaHTML\\CSS\\HomePage.css",
               "RelativeToolTip": "..\\..\\..\\..\\Documents\\My Web Sites\\PaginaHTML\\CSS\\HomePage.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAZAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-08-05T06:17:51.377Z",
+              "WhenOpened": "2024-08-06T06:22:40.232Z",
               "EditorCaption": ""
             },
             {
@@ -103,10 +119,20 @@
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Documents\\My Web Sites\\PaginaHTML\\HTML\\HomePage.html",
               "ToolTip": "C:\\Users\\Higaro\\Documents\\My Web Sites\\PaginaHTML\\HTML\\HomePage.html",
               "RelativeToolTip": "..\\..\\..\\..\\Documents\\My Web Sites\\PaginaHTML\\HTML\\HomePage.html",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB8AAAAYAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-08-05T06:17:38.235Z",
+              "WhenOpened": "2024-08-06T06:14:12.092Z",
               "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 138,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             }
           ]
         }

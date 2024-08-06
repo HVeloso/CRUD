@@ -1,6 +1,6 @@
 ﻿namespace ApiCrud.Tasks
 {
-    // Usado pra receber os dados usados na alteração da tarefa
+    // Usado pra receber os dados necessários na alteração da tarefa
 
-    public record UpdateTaskRequest (string Name, string Description, bool IsCompleted);
+    public record UpdateTaskRequest (int Id, string Name, string Description, bool IsCompleted);
 }
